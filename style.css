@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+body {
+  background-color: antiquewhite;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: "Ubuntu", sans-serif;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: #fff;
+  align-items: center;
+}
+nav ul li {
+  padding: 0px 12px;
+}
+.brand img {
+  width: 60px;
+  padding: 0px 8px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.container {
+  min-height: 72vh;
+  background-color: black;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/486/610/323/headphones-women-music-headphones-girl-monochrome-black-background-1920x1080-entertainment-music-hd-art-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+}
+ 
+
+.bottom {
+  position: sticky;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+.icons {
+  margin-top: 14px;
+}
+.icons i {
+  cursor: pointer;
+}
+#myprogressbar {
+  width: 80vw;
+  cursor: pointer;
+  text-align: center;
+}
+.songitemcontainer{
+  margin-top: 74px;
+}
+.songitem{
+  height: 50px;
+  display: flex;
+  background-color: white;
+  width: 80%;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+}
+.songitem img{
+  width: 43px;
+  margin: 0 23px;
+  border-radius: 34px;
+}
+.timestamp{
+margin: 0 23px;
+
+}
+.timestamp i{
+  cursor: pointer;
+}
+ .songinfo{
+  position:  absolute;
+  left: 9.5vw;
+  display: flex;
+  font-family: 'Varela Round' sans-serif;
+ }
+  .songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s case-in;
+  }
